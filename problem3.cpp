@@ -42,7 +42,7 @@ int main()
     }
     
     for (auto it = groupCount.begin(); it != groupCount.end(); it++) {
-        cout<<it->first<<": "<<it->second<<endl;
+        cout<<it->first<<":"<<it->second<<endl;
     }
     
     return 0;
